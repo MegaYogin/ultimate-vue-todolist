@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Poppins:wght@100&display=swap');
+
+
+body {
+  background: #f2f2f2;
+  color: #444;
+  margin: 0;
+}
+body * {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+header {
+  text-align: center;
+  background: #e7e7e7;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 60px;
+  transform: rotate(-10deg);
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  padding-top: 25px;
+  margin-left: 15px;
+  color: #777;
+  transform: rotate(2deg);
+}
+.task-list {
+  max-width: 640px;
+  margin: 20px auto;
+}
+.task {
+  padding: 6px 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.task h3, .task .icons {
+  display: inline-block;
+  margin-left: 10px;
+}
+.task .icons {
+  text-align: right;
+}
+.task i {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #777;
+}
+.task i.active {
+  color: #c10b9a;
+}
+.filter {
+  width: 640px;
+  margin: 10px auto;
+  text-align: right;
+}
+.filter button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-top: 10PX;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #777;
+  font-size: 1em;
+  background-color: #eee;
+  color: #444;
+}
+
+.new-task-form {
+  background: #e7e7e7;
+  padding: 20px 0;
+}
+form {
+  max-width: 400px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+form button {
+  background: #eee;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #777;
+  font-size: 1.2em;
+  color: #000000;
+}
+form input {
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  background-color:#a8a1a1;
+  color: #000000;
+}
